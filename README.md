@@ -1,6 +1,14 @@
 # axios_ts
 
-This template should help get you started developing with Vue 3 in Vite.
+## Description
+
+參考 [教學](https://blog.logrocket.com/how-to-use-axios-vue-js/)封裝 Axios。
+
+以下頁面用於不同練習，可切換檢視
+
+- axios-basic/ 為基礎使用方法
+- axios-plugin/ 將 axios 設置在 plugin 資料夾並設置全局 instance
+-
 
 ## Recommended IDE Setup
 

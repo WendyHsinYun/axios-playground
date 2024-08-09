@@ -4,10 +4,12 @@
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <h1> Vue 3 + Vite + Axios </h1>
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/axios-basic">Axios Basic</RouterLink>
+        <RouterLink to="/axios-plugin">Axios Plugin</RouterLink>
+        <RouterLink to="/axios-instance-1">Instance 1</RouterLink>
+        <RouterLink to="/axios-instance-2">Instance 2</RouterLink>
       </nav>
     </div>
   </header>

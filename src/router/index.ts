@@ -1,21 +1,28 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import AxiosBasicView from '../views/AxiosBasicView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
-      name: 'home',
-      component: HomeView
+      path: '/axios-basic',
+      name: 'axiosBasic',
+      component: AxiosBasicView
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
+      path: '/axios-plugin',
+      name: 'axiosPlugin',
+      component: () => import('../views/AxiosPluginView.vue')
+    },
+    {
+      path: '/axios-instance-1',
+      name: 'axiosInstance1',
+      component: () => import('../views/InstanceView1.vue')
+    },
+    {
+      path: '/axios-instance-2',
+      name: 'axiosInstance2',
+      component: () => import('../views/InstanceView2.vue')
     }
   ]
 })
