@@ -23,7 +23,7 @@ const handleGetClick = async () => {
   try {
     const data = await api.GET('/api/auth/getregister', { id: "24698626" });
     // const data = await api.GET('/api/auth/getregister', { name: "24698626" });
-  message.value = data;
+    message.value = data;
   } catch (error) {
     console.error('Error:', error);
   }

@@ -5,7 +5,7 @@
     </div>
     <div class="col-md-12" :style="{ 'max-width': '80%' }">
       <ul class="list-group">
-        <li v-for="(fact, index) in catFacts" :key="index" class="list-group-item">{{index + 1}}. {{fact.text}}</li>
+        <li v-for="(fact, index) in (catFacts as AnimalFacts[])" :key="index" class="list-group-item">{{index + 1}}. {{fact.text}}</li>
       </ul>
     </div>
     <div class="row mt-3">

@@ -23,6 +23,11 @@ const router = createRouter({
       path: '/axios-instance-2',
       name: 'axiosInstance2',
       component: () => import('../views/InstanceView2.vue')
+    },
+    {
+      path: '/axios-interceptor',
+      name: 'axiosInterceptor',
+      component: () => import('../views/InterceptorView.vue')
     }
   ]
 })
